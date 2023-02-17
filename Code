@@ -1,0 +1,45 @@
+import random
+class LeagueItems:
+    import random
+
+    mythic_items = [
+        "Crown of the Shattered Queen",
+      "Divine Sunderer",
+      "Duskblade of Draktharr",
+      "Eclipse",
+      "Evenshroud",
+      "Everfrost",
+      "Galeforce",
+      "Goredrinker",
+      "Heartsteel",
+      "Hextech Rocketbelt",
+      "Iceborn Gauntlet",
+      "Immortal Shieldbow",
+      "Imperial Mandate",
+      "Jak'Sho, The Protean",
+      "Kraken Slayer",
+      "Liandry's Anguish",
+      "Locket of the Iron Solari",
+      "Luden's Tempest",
+      "Moonstone Renewer",
+      "Night Harvester",
+      "Prowler's Claw",
+      "Radiant Virtue",
+      "Riftmaker",
+      "Rod of Ages",
+      "Shurelya's Battlesong",
+      "Stridebreaker",
+      "Trinity Force"
+
+    ]
+    boots = ["Berserker's Greaves", "Boots of Swiftness", "Ionian Boots of Lucidity", "Mercury's Treads", "Mobility Boots", "Plated Steelcaps", "Sorcerer's Shoes"]
+    legendary_items = ["Abyssal Mask", "Anathema's Chains", "Archangel's Staff", "Ardent Censer", "Axiom Arc", "Banshee's Veil", "Black Cleaver", "Black Mist Scythe", "Blade of the Ruined King", "Bloodthirster", "Bulwark of the Mountain", "Chempunk Chainsword", "Chemtech Putrifier", "Cosmic Drive", "Dead Man's Plate", "Death's Dance", "Demonic Embrace", "Edge of Night", "Essence Reaver", "Fimbulwinter", "Force of Nature", "Frozen Heart", "Gargoyle Stoneplate", "Guardian Angel", "Guinsoo's Rageblade", "Horizon Focus", "Hullbreaker", "Infinity Edge", "Knight's Vow", "Lich Bane", "Lord Dominik's Regards", "Manamune", "Maw of Malmortius", "Mejai's Soulstealer", "Mercurial Scimitar", "Mikael's Blessing", "Morellonomicon", "Mortal Reminder", "Muramana", "Nashor's Tooth", "Navori Quickblades", "Pauldrons of Whiterock", "Phantom Dancer", "Rabadon's Deathcap", "Randuin's Omen", "Rapid Firecannon", "Ravenous Hydra", "Redemption", "Runaan's Hurricane", "Rylai's Crystal Scepter", "Seraph's Embrace", "Serpent's Fang", "Serylda's Grudge", "Shadowflame", "Shard of True Ice", "Silvermere Dawn", "Spear of Shojin", "Spirit Visage", "Staff of Flowing Water", "Sterak's Gage", "Stormrazor", "Sunfire Aegis", "The Collector", "Thornmail", "Titanic Hydra", "Turbo Chemtank", "Umbral Glaive", "Vigilant Wardstone", "Void Staff", "Warmog's Armor", "Winter's Approach", "Wit's End", "Youmuu's Ghostblade", "Zeke's Convergence", "Zhonya's Hourglass"]
+
+
+    random_mythic = random.choice(mythic_items)
+    random_boots = random.choice(boots)
+    random_normal_items = random.sample(legendary_items, 4)
+
+    print("Your random mythic item is:", random_mythic)
+    print("Your random boots are:", random_boots)
+    print("Your random normal items are:", random_normal_items)
